@@ -2,7 +2,7 @@ import { Html5Qrcode } from "html5-qrcode";
 
 const reader = new Html5Qrcode("reader");
 
-const config = { fps: 10, qrbox: { width: 250, height: 250 } };
+const config = { fps: 10, qrbox: { width: 600, height: 250 } };
 
 reader
   .start(
